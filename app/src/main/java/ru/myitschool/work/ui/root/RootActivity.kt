@@ -1,6 +1,7 @@
 package ru.myitschool.work.ui.root
 
 import android.os.Bundle
+import android.view.Window
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -14,16 +15,14 @@ import ru.myitschool.work.ui.theme.WorkTheme
 class RootActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        requestWindowFeature(Window.FEATURE_NO_TITLE)
         enableEdgeToEdge()
         setContent {
             WorkTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    AppNavHost(
-                        modifier = Modifier
-                            .fillMaxSize()
-                            .padding(innerPadding)
-                    )
-                }
+                AppNavHost(
+                    modifier = Modifier
+                        .fillMaxSize()
+                )
             }
         }
     }

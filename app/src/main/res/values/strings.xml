@@ -4,4 +4,14 @@
     <string name="auth_title">Привет! Введи код для авторизации</string>
     <string name="auth_label">Код</string>
     <string name="auth_sign_in">Войти</string>
+    <string name="date_label">Дата</string>
+    <string name="place_label">Место</string>
+    <string name="booking_title">Бронирование</string>
+    <string name="book_button">Забронировать</string>
+    <string name="booked_places">Забронированные места</string>
+    <string name="login_error">Ошибка входа. Попробуй ещё раз</string>
+    <string name="data_loading_error_main">Ошибка при загрузке данных пользователя</string>
+    <string name="book_error">Ошибка при загрузке бронирования</string>
+    <string name="refresh_button">Обновить</string>
+    <string name="empty_label">Все места уже забронированы</string>
 </resources>

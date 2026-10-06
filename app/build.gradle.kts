@@ -48,4 +48,7 @@ dependencies {
     implementation("io.ktor:ktor-client-content-negotiation:$ktor")
     implementation("io.ktor:ktor-serialization-kotlinx-json:$ktor")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.7.2")
+    implementation("androidx.compose.material:material-icons-core")
+    debugImplementation("androidx.compose.ui:ui-tooling")
 }
